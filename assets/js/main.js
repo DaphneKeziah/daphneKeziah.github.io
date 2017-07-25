@@ -207,7 +207,6 @@
           {
               //data to be sent to server
               post_data = {'userName':user_name, 'userEmail':user_email, 'userPhone':user_phone, 'userMessage':user_message};
-              
               //Ajax post data to server
               $.post('contact_me.php', post_data, function(response){  
                   
