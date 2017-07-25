@@ -109,17 +109,6 @@ a:hover{
   background: #333; 
 }
 
-
-
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
-/********************************/
-/*       Fade Bs-carousel       */
-/********************************/
 .fade-carousel {
     position: relative;
     height: 100vh;
@@ -139,9 +128,6 @@ Image credits: unsplash.com
   opacity: 1;
 }
 
-/********************************/
-/*          Hero Headers        */
-/********************************/
 .hero {
     color: #fff;
     position: absolute;
@@ -190,10 +176,6 @@ Image credits: unsplash.com
          -o-transition: 2s all ease-in-out .1s; 
             transition: 2s all ease-in-out .1s;    
 }
-
-/********************************/
-/*            Overlay           */
-/********************************/
 .overlay {
     position: absolute;
     width: 100%;
@@ -203,9 +185,6 @@ Image credits: unsplash.com
     opacity: .7;
 }
 
-/********************************/
-/*          Custom Buttons      */
-/********************************/
 .btn.btn-lg {padding: 10px 40px;}
 .btn.btn-hero,
 .btn.btn-hero:hover,
@@ -217,9 +196,6 @@ Image credits: unsplash.com
     margin: 20px auto;
 }
 
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
@@ -238,9 +214,6 @@ Image credits: unsplash.com
   background-image: url(img/computer-03.jpg);
 }
 
-/********************************/
-/*          Media Queries       */
-/********************************/
 @media screen and (min-width: 980px){
     .hero { width: 980px; }    
 }
@@ -473,8 +446,6 @@ scroll {  0% {
 }
 
 
-/*============== Service style ==============*/
-
 .single_service{  
   margin-top: 100px;
   margin-bottom: 100px;
@@ -483,24 +454,6 @@ scroll {  0% {
   position: relative;
   overflow: hidden;
 }
-
-/*.single_service .ico{
-  margin: 0 auto;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  font-size: 30px;
-  color: #f32b1a;
-  line-height: 76px;
-  background: rgba(195, 185, 185, 0.21);
-  width: 80px;
-  height: 80px;
-  text-align: center;
-  border: solid 4px #fff;
-  outline: 1px solid #dddddd;
-  }*/
 
   .single_service:hover .ico{
   color:#F3F1F1;
@@ -624,29 +577,17 @@ scroll {  0% {
 
 
 
-/* ===========Portfolio style===========*/
 
 .portfolio_area{
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.portfolio_section{
-
-}
 
 .portfolio_section h1{
   color: #3498db;
   text-transform: uppercase;
   font-weight: 600;
-}
-
-.portfolio_top{
-
-}
-
-.portfolio{
-
 }
 
 
@@ -805,9 +746,6 @@ scroll {  0% {
 }
 
 
-
-/*============== Skill style ==============*/
-
 .skill_area{
   background-color: #f8f8f8;
 }
@@ -946,95 +884,6 @@ color: #282a2e;
   color:#fff;
 }
 
-
-
-/*============== Price style ==============*/
-
-.price_area{
-  background: #f8f8f8;
-}
-
-
-.price_section{
-
-}
-
-
-.price_section h1{
-  color: #3498db;
-  margin-top: 55px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.pricing-table{
-    margin-top: 65px;
-}
-
-.pricing-box { margin-bottom: 70px; float: left;}
-.pricing-box ul { padding: 0; margin: 0; list-style: none; position: relative;cursor:pointer;border: solid 1px #ddd; z-index: 1;}
-
-.pricing-box ul:hover .subscription-price{
-  background: #f32b1a;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;  
-}
-
-
-
-
-.pricing-box ul li { text-align: center; border-bottom: solid 1px #ddd; line-height: 40px; background: #fff;}
-
-.pricing-box li.plan-title { text-transform: uppercase; line-height: 50px; font-size: 16px;} 
-.pricing-box li.subscription-price { background: #666666; color: #fff; position: relative; border-bottom: none; font-size: 16px;}
-.pricing-box li.subscription-price .currency {position: absolute; top: 15px; left: 50%; margin-left: -70px; font-size: 18px;}
-.pricing-box li.subscription-price .price { font-size: 70px; font-weight: 600; font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
-line-height: 106px;}
-.pricing-box li.sing-up {position: absolute; left: 50%; bottom: -22.5px; margin-left: -79px; background: #fff; 
-line-height: 45px !important;}
-.pricing-box li.sing-up a { color: #000; text-transform: uppercase; padding: 11px 53px; line-height: 42px; border: solid 1px #ddd;}
-.pricing-box li.sing-up a:hover { background: #666666; border: solid 1px #666666; color: #fff;}
-
-.pricing-box.featured {}
-.pricing-box.featured li.plan-title { line-height: 61px;}
-.pricing-box.featured ul {border: solid 2px #f32b1a; z-index: 2; box-shadow: 0px 0px 15px 5px rgba(0,0,0,.11);}
-
-.last { padding-bottom: 20px;}
-
-.pricing-box.featured ul li { line-height: 45px;}
-
-.pricing-box.featured li.subscription-price { background: #f32b1a; }
-.pricing-box.featured li.subscription-price .price { line-height: 130px; font-size: 85px;}
-.pricing-box.featured li.subscription-price .currency { top: 25px; margin-left: -80px;}
-.sing-up{
-  border-bottom: none;
-}
-.pricing-box.featured li.sing-up a { background: #f32b1a; color: #fff; border: solid 1px #f32b1a;}
-.pricing-box.featured li.sing-up a:hover { background: #CE2112; border: solid 1px #CE2112; color: #fff;}
-
-
-
-
-/*============== testimonial style ==============*/
-
-.testimonial_area{
-  margin-bottom: 60px;
-  margin-top: 60px;
-}
-
-.testimonial_section h1{
- text-transform: uppercase;
- font-weight: 600;
-
-}
-
-
-.testimonial_section h1 span{
-  color: #3498db;
-}
 
 
 .contact_section{
