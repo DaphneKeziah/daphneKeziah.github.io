@@ -5,11 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Daphne Keziah Portfolio</title>
-        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600,700,600italic,200,200italic' rel='stylesheet' type='text/css'    
-              <link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600,700,600italic,200,200italic' rel='stylesheet' type='text/css'    
+              <link href='//fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/skillset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css"> 
         <link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css">
@@ -216,14 +216,15 @@
                 <h1>Contact Me</h1>
                 <div class="col-md-6">
                     <div class="contact_form">
-                        <fieldset id="contact_form">
+                        <form action="https://formspree.io/daphnekeziahi@gmail.com"
+      method="POST">
                             <div id="result"></div>
                             <label for="name">
                                 <input type="text" name="name" id="name" placeholder="Enter Your Name" />
                             </label>
 
                             <label for="email">
-                                <input type="email" name="email" id="email" placeholder="Enter Your Email" />
+                                <input type="email" name="_replyto" id="email" placeholder="Enter Your Email" />
                             </label>
 
                             <label for="phone">
@@ -233,9 +234,9 @@
                             <label for="message">
                                 <textarea name="message" id="message" placeholder="Enter Your Name"></textarea>
                             </label>
-                            <button type="button" class="btn btn-primary" id="submit_btn">Submit</button>
+                            <button type="button" class="btn btn-primary" id="submit_btn" value="send">Submit</button>
                             </label>
-                        </fieldset>                           
+                        </form>                           
                     </div>
                 </div>
                 <div class="col-md-6">
